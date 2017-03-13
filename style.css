@@ -1,6 +1,6 @@
 .navButtons {
-	color: #E9C58F;
-	background-color: black;
+	background-image: url(images/purty_wood.png);
+	color: #161924;
 	padding: 6px 8px 0px 8px;
 	font-size: 1.5em;
 	border-radius: 6px;
@@ -8,12 +8,12 @@
 	font-family: 'Baloo Bhaina', cursive;
 	border-width: 2px;
 	border-style: solid;
-	border-color: #E9C58F;
+	border-color: black;
 }
 
 .navButtons:hover {
-	background-image: url(images/nameBackGround.png);
-
+	background-image: none;
+	color: #EBC07D;
 }
 
 .navButtonContainer {
@@ -35,10 +35,10 @@
 }
 
 .name {
-	color: #E8BC7A;
+	background-image: url(images/purty_wood.png);
+	color: #161924;
 	font-size: 2em;
 	font-family: 'Baloo Bhaina', cursive;	
-	background-color: black;
 	border-radius: 10px;
 	height: 50px;
 	width: 278px;
@@ -47,7 +47,7 @@
 	margin-left: -15px;
 	border-width: 2px;
 	border-style: solid;
-	border-color: #E9C58F;
+	border-color: black;
 
 }
 
@@ -64,6 +64,9 @@
 #headShot {
 	float: left;
 	margin: 5px 20px 5px 0;
+	border-color: #161924;
+	border-style: solid;
+	border-width: 2px;
 }
 
 .content {
@@ -139,4 +142,83 @@ h3 {
 
 body {
 	font-family: 'Open Sans', sans-serif;
+}
+
+
+/*TESTING*/
+
+.portEntry {
+	float: left;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 30px;
+	margin-bottom: 10px;
+	position: relative;
+	width: 213px;
+	border-color: #161924;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.portEntry:hover .portDesc {
+	position: absolute;
+	border-radius: 1px;
+	width: 180px;
+	height: 35px;
+	bottom: 30px;
+	right: 18px;
+
+}
+
+.portDesc {
+	position: absolute;
+	text-align: center;
+	color: #161924;
+	font-size: .8em;
+	font-family: 'Baloo Bhaina', cursive;	
+	border-radius: 10px;
+	height: 35px;
+	width: 180px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #161924;
+	bottom: 30px;
+	right: 18px;
+	background-image: url("images/purty_wood.png");
+
+}
+
+.portDesc h3 {
+	margin-top: 7px;
+}
+
+/* CONTACT*/
+
+.contactQ {
+	color: #161924;
+	font-size: 1.2em;
+	font-weight: 700;
+	margin-left: 6px;
+}
+
+.contactA {
+	margin-left: 5px;
+}
+
+.input {
+	color: #EABE77;
+	background-image: url("images/backGround.png");
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	border-radius: 10px;
+	height: 44px;
+	width: 100px;
+	margin: 0 0 3px 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.input:hover {
+	background-image: url("images/purty_wood.png");
+	color: #161924;
 }
