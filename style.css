@@ -1,11 +1,14 @@
 .navButtons {
-	color: #bcf2ff;
+	color: #E9C58F;
 	background-color: black;
-	padding: 7px 8px 0px 8px;
+	padding: 6px 8px 0px 8px;
 	font-size: 1.5em;
 	border-radius: 6px;
 	text-align: center;
 	font-family: 'Baloo Bhaina', cursive;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #E9C58F;
 }
 
 .navButtons:hover {
@@ -20,7 +23,7 @@
 .navBackground {
 	background-image: url(images/backGround.png);
 	border: 0;
-	margin-bottom: -5px;
+	margin-bottom: -10px;
 }
 
 .mainContainer {
@@ -32,16 +35,20 @@
 }
 
 .name {
-	color: #baf2ff;
+	color: #E8BC7A;
 	font-size: 2em;
 	font-family: 'Baloo Bhaina', cursive;	
 	background-color: black;
 	border-radius: 10px;
 	height: 50px;
 	width: 278px;
-	padding-top: 15px;
+	padding-top: 13px;
 	padding-left: 15px;
 	margin-left: -15px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #E9C58F;
+
 }
 
 .test {
@@ -61,13 +68,13 @@
 
 .content {
 	padding: 20px;
-	background-image: url(images/weather.png);
+	background-image: url(images/purty_wood.png);
 	border-bottom-right-radius: 12px;
 	border-bottom-left-radius: 12px;
 }
 
-.contentTwo {
-	background-image: url(images/weather.png);
+.contentTop {
+	background-image: url(images/purty_wood.png);
 	border-top-right-radius: 12px;
 	border-top-left-radius: 12px;
 	margin: 10px 0 5px 0;
@@ -93,7 +100,7 @@
 	border-top-width: 5px;
 	border-top-style: solid;
 	border-top-color: black;
-	color: #baf2ff;
+	color: #E8BC7A;
 	border-bottom-right-radius: 20px;
 	border-bottom-left-radius:  20px;
 	margin-bottom: 10px;
@@ -112,10 +119,10 @@ h1 {
 }
 
 h3 {
-	font-family: 'Open Sans', sans-serif;	
+	font-family: 'Baloo Bhaina', cursive;	
 	font-size: 2em;
 	font-weight: bold;
-	margin-top: 12px;
+	margin-top: 19px;
 }
 
 .navbar-header {
