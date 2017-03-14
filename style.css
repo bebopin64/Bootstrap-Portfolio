@@ -48,11 +48,6 @@
 	border-width: 2px;
 	border-style: solid;
 	border-color: black;
-
-}
-
-.test {
-	padding: 0;
 }
 
 .center {
@@ -81,6 +76,7 @@
 	border-top-right-radius: 12px;
 	border-top-left-radius: 12px;
 	margin: 10px 0 5px 0;
+	padding-top: 10px;
 	text-align: center;
 	color: #161924;
 	height: 79px;
@@ -104,14 +100,32 @@
 	border-top-width: 5px;
 	border-top-style: solid;
 	border-top-color: black;
-	color: #E8BC7A;
 	border-bottom-right-radius: 20px;
 	border-bottom-left-radius:  20px;
 	margin-bottom: 10px;
 }
 
+a.remove {
+	text-decoration: none;
+	color: #E8BC7A;
+	cursor: default;
+}
 
-/* NAVBAR TEST AREA*/
+h3 {
+	font-family: 'Baloo Bhaina', cursive;	
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 19px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: black; 
+	color: #0e131a;
+}
+
+
+/* NAVBAR */
 
 .right {
 	float: right;
@@ -122,13 +136,6 @@ h1 {
 	font-weight: bold;
 }
 
-h3 {
-	font-family: 'Baloo Bhaina', cursive;	
-	font-size: 2em;
-	font-weight: bold;
-	margin-top: 19px;
-}
-
 .navbar-header {
 	margin-left: 0;
 }
@@ -137,16 +144,8 @@ h3 {
 	margin: 0;
 }
 
-#aboutMe {
-	margin-bottom: 10px;
-}
 
-body {
-	font-family: 'Open Sans', sans-serif;
-}
-
-
-/*TESTING*/
+/*PORTFOLIO*/
 
 .portEntry {
 	float: left;
